@@ -11,7 +11,7 @@ const Categories = class Categories {
 
     // READ
     static fetchAll() {
-        return db.execute('SELECT * from clothing_09');
+        return db.execute('SELECT * from category_09');
     }
 
 
