@@ -12,7 +12,7 @@ const Prod3c_09 = class Prod3c_09 {
 
     // READ
     static fetchAll() {
-        return db.execute('SELECT * from prod3c_09');
+        return db.execute('SELECT * from category_09');
     }
 
 }
